@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #be0f0f;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.Opcion {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.Opcion .nombre {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.Opcion .descripcion {
+    display: block;
+    margin-left: 10px;
+}
+
+.Opcion .descripcion h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+.Opcion .descripcion p {
+    margin: 0;
+}
+.nombre{
+    color: #be0f0f;
+}
