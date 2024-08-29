@@ -3,7 +3,7 @@
 }
 body
 {
-    background-color: #3f1844;
+    background-color: #2a3351;
 }
 header{
     background-color: #533de0; /* Color de fondo para el header y footer */
@@ -17,7 +17,7 @@ header ul {
 }
 header ul li {
     display: inline;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 footer p {
     margin: 0;
