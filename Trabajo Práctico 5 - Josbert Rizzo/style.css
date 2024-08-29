@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+body
+{
+    background-color: #3f1844;
+}
+header{
+    background-color: #533de0; /* Color de fondo para el header y footer */
+    /* padding: 10px; */
+    height: 8vh;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+header ul li {
+    display: inline;
+    margin: 0 20px;
+}
+footer p {
+    margin: 0;
+}
+
+.container {
+    height: 86vh;
+}
+
+footer {
+    text-align: center;
+    height: 6vh;
+    background-color: #422ec7; 
+}
+p,a,li{
+   color: aliceblue; 
+}
+
+nav {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
