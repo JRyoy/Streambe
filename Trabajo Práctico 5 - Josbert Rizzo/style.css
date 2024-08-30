@@ -11,6 +11,11 @@ header{
     height: 8vh;
 }
 
+.about {
+    /* width: 100px;
+    height: 50px; */
+}
+
 header ul {
     list-style: none;
     padding: 0;
@@ -47,4 +52,23 @@ nav {
     display: flex;
     width: 100%;
     align-items: center;
+}
+.nav-buttons {
+    display: flex; /* Alinea los botones en una fila */
+    gap: 10px; /* Espacio entre los botones */
+}
+
+.nav-button {
+    background-color: #533de0; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Muestra el cursor de mano al pasar por encima */
+    text-align: center; /* Alinea el texto en el centro */
+    transition: background-color 0.3s ease; /* Efecto de transición para el cambio de color */
+    text-decoration: none; /* Elimina el subrayado del texto */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+.nav-button:hover {
+    background-color: #533de0; /* Color de fondo cuando se pasa el mouse por encima */
 }

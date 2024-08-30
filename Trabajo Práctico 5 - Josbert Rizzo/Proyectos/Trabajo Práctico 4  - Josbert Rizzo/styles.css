@@ -1,0 +1,29 @@
+button{
+    margin: auto;
+    margin-top: 15px;
+}
+
+form {
+    width: 15%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+input {
+    width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    
+}
+
+p {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+}
