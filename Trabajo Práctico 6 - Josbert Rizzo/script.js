@@ -35,13 +35,8 @@ contact.addEventListener("click", () => {
     <input type="text" name=""Mensaje id="Mensaje">
     <div class="button" >
     <button type="submit">RegistrarContacto</button>
-        <img style="width: 100%; height: 80%; object-fit: contain; margin-top: 75px; opacity: 0.7;" src="/Tortu.png" >
-        
-        </div>
-        </form>
-    </div>`;
+    </form>`;
 });
-
 
 about.addEventListener("click", () => {
     contenedor.innerHTML = "";
@@ -57,7 +52,6 @@ about.addEventListener("click", () => {
             Además, he aprendido a trabajar en equipo y aplicar metodologías ágiles, fortaleciendo mis habilidades en el campo tecnológico.</p>
     </div>`;
 });
-
 
 portafolio.addEventListener("click", () => {
     contenedor.innerHTML = "";

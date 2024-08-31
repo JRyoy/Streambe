@@ -9,20 +9,17 @@ contact.addEventListener("click", () => {
     contenedor.innerHTML = `<div class="container">
     <form action="/backend" method="POST" id="ContactForm">
     <p>nombre</p>
-    <input type="text" name="nombre" id="nombre">
+        <input type="text" name="nombre" id="nombre">
     <p>email</p>
-    <input type="text" name="email" id="email">
+        <input type="text" name="email" id="email">
     <p>Numero</p>
-    <input type="text" name="Numero" id="Numero">
+        <input type="text" name="Numero" id="Numero">
     <p>Mensaje</p>
-    <input type="text" name=""Mensaje id="Mensaje">
+        <input type="text" name=""Mensaje id="Mensaje">
     <div class="button" >
     <button type="submit">RegistrarContacto</button>
-        <img style="width: 100%; height: 85%; object-fit: contain; margin-top: 75px; opacity: 0.7;" src="/Tortu.png" >
-        
-        </div>
-        </form>
-    </div>`;
+    </div>
+    </form>`;
 });
 
 
