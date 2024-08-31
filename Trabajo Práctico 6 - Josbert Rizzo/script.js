@@ -1,3 +1,20 @@
+alert("¡Bienvenido a mi página web!");
+const nombreUsuario = prompt("¿Cuál es tu nombre?");
+let edad = parseInt(prompt("¿Cuántos años tienes?"));
+
+if (edad >= 18) {
+    alert("Eres mayor de edad.");
+} else {
+    alert("Eres menor de edad.");
+}
+
+const usuario = {
+    nombre: nombreUsuario,
+    edad: edad,
+    saludar: function () {
+        alert("Hola " + this.nombre + ", bienvenido a mi portafolio.");
+    }
+};
 const portafolio = document.querySelector(".portafolio");
 const about = document.querySelector(".about");
 const contact = document.querySelector(".contact");
@@ -18,7 +35,7 @@ contact.addEventListener("click", () => {
     <input type="text" name=""Mensaje id="Mensaje">
     <div class="button" >
     <button type="submit">RegistrarContacto</button>
-        <img style="width: 100%; height: 85%; object-fit: contain; margin-top: 75px; opacity: 0.7;" src="/Tortu.png" >
+        <img style="width: 100%; height: 80%; object-fit: contain; margin-top: 75px; opacity: 0.7;" src="/Tortu.png" >
         
         </div>
         </form>
